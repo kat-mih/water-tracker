@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water Tracker</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/kyk1jee.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Stay hydrated during the day!</h1>
+      <div class="water">
+        <div class="bottle__progress"></div>
+      </div>
+      <div class="buttons">
+        <button class="button button__remove" disabled>
+          <span class="button__container">
+            <img src="images/minus.svg" alt="" class="button__image" />
+          </span>
+        </button>
+        <button class="button button__add">
+          <span class="button__container">
+            <img src="images/plus.svg" alt="" class="button__image" />
+          </span>
+        </button>
+      </div>
+      <div class="grid">
+        <div class="grid__item">
+          <span class="cups">0 / 8 cups</span>
+        </div>
+        <div class="grid__item">
+          <span class="percentage">0%</span>
+        </div>
+        <div class="grid__item">
+          <span class="liters">0 / 2l</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress__bar"></div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

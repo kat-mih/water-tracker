@@ -1,0 +1,23 @@
+{
+  "name": "js_water_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/une-fee/water-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/une-fee/water-tracker/issues"
+  },
+  "homepage": "https://github.com/une-fee/water-tracker#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
